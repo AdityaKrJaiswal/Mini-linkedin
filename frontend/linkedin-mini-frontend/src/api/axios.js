@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000", // change to Render URL when deployed
+  baseURL: "https://mini-linkedin-1-jy1p.onrender.com", // change to Render URL when deployed
 });
 
 instance.interceptors.request.use((config) => {
